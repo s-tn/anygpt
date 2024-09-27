@@ -31,3 +31,19 @@ body {
     text-wrap: balance;
   }
 }
+
+* {
+  box-sizing: border-box;
+  font-weight: lighter;
+  font-family: 'Inter', sans-serif;
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    display: none;
+  }
+}
